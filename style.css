@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.section1{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3f3f3;
+    padding: 10px 1px;
+   align-items: center;
+}
+
+.signIn{
+    margin-left: 100px;
+    background-color: rgb(31, 110, 255);
+    color:white;
+    padding: 8px 5px;
+    border-radius: 4px;
+}
+
+.titleLeft{
+    font-size: larger;
+}
+
+#img{
+  
+    width: 100%;
+    position: absolute;
+    height: 500px;
+   
+}
+
+.title{
+    position: relative;
+    top: 7rem;
+    color: rgb(29, 27, 27);  
+}
+
+.InputDiv{
+    text-align: center;
+}
+
+.titleMain{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    top: 5rem;
+    position: relative;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 40px;
+   
+}
+
+#input{
+   width: 30%;
+   padding: 8px;
+   border-radius: 5px;
+}
+
+.titleBtn{
+    background-color: rgb(31, 110, 255);
+    color:white;
+    padding: 7px 20px;
+    border-radius: 4px;
+}
+
+.section3{
+    position: relative;
+    top: 300px;
+    padding:50px;
+    background-color:#f3f3f3; 
+    padding: 30px;
+}
+
+.card{
+    text-align: center;
+    
+    display: inline-block;
+    margin: 1px 50px;
+}
